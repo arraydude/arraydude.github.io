@@ -5,7 +5,7 @@
 
 body {
   background  : @lightGray;
-  font-family : "Roboto";
+  font-family : "Roboto", serif;
   font-weight : 400;
   color       : @blueBlack;
 }
@@ -15,23 +15,23 @@ header {
     background : url(../img/bg_head_3.png) no-repeat center center;
 
     img.avatar {
-      border: 1px solid white;
-      margin-bottom: 35px;
+      border        : 1px solid white;
+      margin-bottom : 35px;
     }
 
     h1 {
-      color : white;
+      color       : white;
       font-weight : 300;
     }
 
-    h2{
-      font-size: 32px;
-      font-weight: 300;
-      color: @lightGray;
+    h2 {
+      font-size   : 32px;
+      font-weight : 300;
+      color       : @lightGray;
     }
 
     strong {
-      font-weight: 600;
+      font-weight : 600;
     }
   }
 }
@@ -83,13 +83,11 @@ section.cv-container {
     li {
       min-height         : 50px;
       list-style         : none;
-      border-left-width  : 10px;
-      border-left-style  : solid;
       line-height        : 35px;
       padding-left       : 15px;
       font-weight        : 300;
       letter-spacing     : 2px;
-      border-bottom      : 1px solid;
+      border-bottom      : 1px solid; border-left : 10px solid;
       transition         : background 0.2s linear;
       -webkit-transition : background 0.2s linear;
 
@@ -146,9 +144,8 @@ section.cv-container {
   .timeline {
     padding-left       : 25px;
     width              : 600px;
-    margin             : 0 auto;
     border-left        : 5px solid @blueBlack;
-    margin-top         : 30px;
+    margin             : 30px auto 0;
     -webkit-box-sizing : border-box;
     -moz-box-sizing    : border-box;
 
@@ -205,7 +202,6 @@ section.cv-container {
         width         : 100%;
         padding-top   : 5px;
         margin-bottom : 10px;
-        width         : 100%;
 
         .from, .to {
           background-color : @lightBlue;
@@ -224,10 +220,10 @@ section.cv-container {
           margin-bottom : 7px;
         }
       }
+
       .desc {
         margin-top  : 13px;
         display     : initial;
-        color       : darkbrown;
         font-weight : 300;
         font-size   : 13px;
       }
