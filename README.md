@@ -1,4 +1,4 @@
-CV
+Resume Online
 ==
 
 My CSS3 Curriculum Vitae
